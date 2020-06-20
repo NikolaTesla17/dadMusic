@@ -588,8 +588,9 @@ var Framer = {
                 this.currentSongIndex = 0;
             }
 
-            //this.loadTrack(this.currentSongIndex);
-            Player.play()
+            this.loadTrack(this.currentSongIndex);
+            request.send();
+            //Player.play()
             return;
         },
 

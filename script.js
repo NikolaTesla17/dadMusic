@@ -521,7 +521,7 @@ var Framer = {
             {
                 artist: "Me",
                 song: "lookee here",
-                url: "//soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                url: "//katiebaca.com/tutorial/odd-look.mp3"
             },
             {
                 artist: "Me2",

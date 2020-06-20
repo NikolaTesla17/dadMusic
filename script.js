@@ -521,7 +521,7 @@ var Framer = {
             {
                 artist: "Me",
                 song: "lookee here",
-                url: "http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3"
+                url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
             }
         ],
 

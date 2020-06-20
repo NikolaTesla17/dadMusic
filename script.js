@@ -560,7 +560,7 @@ var Framer = {
         },
 
         loadTrack: function (index) {
-            console.log("loading" + index);
+            console.log("loading " + index);
             var that = this;
             var request = new XMLHttpRequest();
             var track = this.tracks[index];
@@ -588,7 +588,8 @@ var Framer = {
                 this.currentSongIndex = 0;
             }
 
-            this.loadTrack(this.currentSongIndex);
+            //this.loadTrack(this.currentSongIndex);
+            Player.play()
             return;
         },
 

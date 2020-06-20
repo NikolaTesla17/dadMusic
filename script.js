@@ -574,6 +574,7 @@ var Framer = {
             console.log("loading" + index);
             request.onload = function() {
                 that.context.decodeAudioData(request.response, function(buffer) {
+                    that.source.buffer = null;
                     that.source.buffer = buffer;
                 });
             };

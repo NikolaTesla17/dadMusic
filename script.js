@@ -518,15 +518,15 @@ var Framer = {
         duration: 0,
 
         tracks: [
-            // {
-            //     artist: "Me",
-            //     song: "lookee here",
-            //     url: "//katiebaca.com/tutorial/odd-look.mp3"
-            // },
             {
                 artist: "unity",
                 song: "lookee here22",
                 url: "unity.mp3"
+            },
+            {
+                artist: "close to the sun",
+                song: "lookee here2e2",
+                url: "closeTo.mp3"
             }
         ],
 

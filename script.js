@@ -582,8 +582,7 @@ var Framer = {
 
         nextTrack: function () {
             console.log("next track");
-            return;
-            console.log("next code unreachable reached");
+            //console.log("next code unreachable reached");
             ++this.currentSongIndex;
             if (this.currentSongIndex == this.tracks.length) {
                 this.currentSongIndex = 0;

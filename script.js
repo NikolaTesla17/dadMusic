@@ -560,6 +560,7 @@ var Framer = {
         },
 
         loadTrack: function (index) {
+            console.log("loading" + index);
             var that = this;
             var request = new XMLHttpRequest();
             var track = this.tracks[index];
@@ -580,25 +581,25 @@ var Framer = {
         },
 
         nextTrack: function () {
-            
+            console.log("next track");
+            return;
+            console.log("next code unreachable reached");
             ++this.currentSongIndex;
             if (this.currentSongIndex == this.tracks.length) {
                 this.currentSongIndex = 0;
             }
 
             this.loadTrack(this.currentSongIndex);
-            return;
         },
 
         prevTrack: function () {
-            
+            return;
             --this.currentSongIndex;
             if (this.currentSongIndex == -1) {
                 this.currentSongIndex = this.tracks.length - 1;
             }
 
             this.loadTrack(this.currentSongIndex);
-            return;
         },
 
         play: function () {

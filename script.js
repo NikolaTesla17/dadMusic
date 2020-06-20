@@ -560,7 +560,7 @@ var Framer = {
         },
 
         loadTrack: function (index) {
-            console.log("loading " + index);
+            console.log("loading" + index);
             var that = this;
             var request = new XMLHttpRequest();
             var track = this.tracks[index];
@@ -571,6 +571,7 @@ var Framer = {
             request.open('GET', track.url, true);
             request.responseType = 'arraybuffer';
 
+            console.log("loading" + index);
             request.onload = function() {
                 that.context.decodeAudioData(request.response, function(buffer) {
                     that.source.buffer = buffer;
@@ -589,19 +590,17 @@ var Framer = {
             }
 
             this.loadTrack(this.currentSongIndex);
-            request.send();
-            //Player.play()
             return;
         },
 
         prevTrack: function () {
+            return;
             --this.currentSongIndex;
             if (this.currentSongIndex == -1) {
                 this.currentSongIndex = this.tracks.length - 1;
             }
 
             this.loadTrack(this.currentSongIndex);
-            return;
         },
 
         play: function () {

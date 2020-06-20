@@ -580,23 +580,25 @@ var Framer = {
         },
 
         nextTrack: function () {
-            return;
+            
             ++this.currentSongIndex;
             if (this.currentSongIndex == this.tracks.length) {
                 this.currentSongIndex = 0;
             }
 
             this.loadTrack(this.currentSongIndex);
+            return;
         },
 
         prevTrack: function () {
-            return;
+            
             --this.currentSongIndex;
             if (this.currentSongIndex == -1) {
                 this.currentSongIndex = this.tracks.length - 1;
             }
 
             this.loadTrack(this.currentSongIndex);
+            return;
         },
 
         play: function () {

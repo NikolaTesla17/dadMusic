@@ -519,13 +519,13 @@ var Framer = {
 
         tracks: [
             {
-                artist: "unity",
-                song: "lookee here22",
+                artist: "theFatRat",
+                song: "unity",
                 url: "unity.mp3"
             },
             {
-                artist: "close to the sun",
-                song: "lookee here2e2",
+                artist: "theFatterMouse",
+                song: "close to the sun",
                 url: "closeTo.mp3"
             }
         ],

@@ -65,9 +65,15 @@ require([
 
     function randomSong(){
         var song = Array(
-            "mp3/closeTo.mp3", 
+            "mp3/Graveyard.mp3", 
+            "mp3/Photograph.mp3", 
+            "mp3/Sabotage.mp3", 
+            "mp3/WWL.mp3", 
             "mp3/wolf.m4a", 
-            "mp3/unity.mp3");
+            "mp3/Cage.m4a", 
+            "mp3/Chicken.m4a", 
+            "mp3/Child.m4a", 
+            "mp3/HotelC.mp3");
 
 
         var randomSong = song[Math.floor(Math.random() * song.length)];
